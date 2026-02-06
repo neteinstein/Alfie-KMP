@@ -19,7 +19,7 @@ This project follows **Clean Architecture** principles with clear separation of 
 ### Architecture Layers
 
 #### 1. **Presentation Layer (UI)**
-- **Location**: `composeApp/src/commonMain/kotlin/com/neteinstein/alfie/screens/`
+- **Location**: `composeApp/src/commonMain/kotlin/com/mindera/alfie/screens/`
 - **Pattern**: MVVM (Model-View-ViewModel)
 - **Components**:
   - **Screens**: Composable UI components (ListScreen, DetailScreen)
@@ -31,7 +31,7 @@ This project follows **Clean Architecture** principles with clear separation of 
   - Unidirectional data flow
 
 #### 2. **Domain Layer**
-- **Location**: `composeApp/src/commonMain/kotlin/com/neteinstein/alfie/data/`
+- **Location**: `composeApp/src/commonMain/kotlin/com/mindera/alfie/data/`
 - **Components**:
   - **MuseumRepository**: Coordinates data operations and caching
   - **MuseumObject**: Domain model representing business entities
@@ -41,7 +41,7 @@ This project follows **Clean Architecture** principles with clear separation of 
   - No framework dependencies
 
 #### 3. **Data Layer**
-- **Location**: `composeApp/src/commonMain/kotlin/com/neteinstein/alfie/data/`
+- **Location**: `composeApp/src/commonMain/kotlin/com/mindera/alfie/data/`
 - **Components**:
   - **MuseumApi**: Network interface (abstraction)
   - **KtorMuseumApi**: Ktor implementation for HTTP requests
@@ -54,7 +54,7 @@ This project follows **Clean Architecture** principles with clear separation of 
   - Separation of remote and local data sources
 
 #### 4. **Dependency Injection**
-- **Location**: `composeApp/src/commonMain/kotlin/com/neteinstein/alfie/di/`
+- **Location**: `composeApp/src/commonMain/kotlin/com/mindera/alfie/di/`
 - **Framework**: Koin
 - **Modules**:
   - `dataModule`: Provides data layer dependencies
@@ -83,7 +83,7 @@ Alfie-KMP/
 │   ├── src/
 │   │   ├── commonMain/           # Shared code for all platforms
 │   │   │   ├── kotlin/
-│   │   │   │   └── com/neteinstein/alfie/
+│   │   │   │   └── com/mindera/alfie/
 │   │   │   │       ├── App.kt                    # Main app entry point & navigation
 │   │   │   │       ├── data/                     # Data layer
 │   │   │   │       │   ├── MuseumApi.kt         # Network API interface
@@ -102,14 +102,14 @@ Alfie-KMP/
 │   │   │   └── composeResources/        # Shared resources
 │   │   ├── androidMain/              # Android-specific code
 │   │   │   ├── kotlin/
-│   │   │   │   └── com/neteinstein/alfie/
+│   │   │   │   └── com/mindera/alfie/
 │   │   │   │       ├── MainActivity.kt          # Android entry point
 │   │   │   │       └── MuseumApp.kt            # Application class
 │   │   │   ├── AndroidManifest.xml
 │   │   │   └── res/                  # Android resources
 │   │   └── iosMain/                  # iOS-specific code
 │   │       └── kotlin/
-│   │           └── com/neteinstein/alfie/
+│   │           └── com/mindera/alfie/
 │   │               └── MainViewController.kt    # iOS entry point
 │   └── build.gradle.kts              # Module build configuration
 ├── iosApp/                           # iOS native wrapper
