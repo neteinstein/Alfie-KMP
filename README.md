@@ -234,7 +234,7 @@ Dependencies are managed using Gradle Version Catalog (`gradle/libs.versions.tom
 ./gradlew :composeApp:installDebug
 
 # Run on connected device
-./gradlew :composeApp:installDebug && adb shell am start -n com.neteinstein.alfie/.MainActivity
+./gradlew :composeApp:installDebug && adb shell am start -n com.mindera.alfie/.MainActivity
 ```
 
 ### iOS

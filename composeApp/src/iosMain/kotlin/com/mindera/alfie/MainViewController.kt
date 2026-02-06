@@ -1,4 +1,4 @@
-package com.neteinstein.alfie
+package com.mindera.alfie
 
 import androidx.compose.ui.window.ComposeUIViewController
 

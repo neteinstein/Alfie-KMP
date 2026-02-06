@@ -1,4 +1,4 @@
-package com.neteinstein.alfie
+package com.mindera.alfie
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

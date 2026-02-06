@@ -1,8 +1,8 @@
-package com.neteinstein.alfie.screens.detail
+package com.mindera.alfie.screens.detail
 
 import androidx.lifecycle.ViewModel
-import com.neteinstein.alfie.data.MuseumObject
-import com.neteinstein.alfie.data.MuseumRepository
+import com.mindera.alfie.data.MuseumObject
+import com.mindera.alfie.data.MuseumRepository
 import kotlinx.coroutines.flow.Flow
 
 class DetailViewModel(private val museumRepository: MuseumRepository) : ViewModel() {

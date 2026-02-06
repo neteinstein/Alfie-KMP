@@ -1,4 +1,4 @@
-package com.neteinstein.alfie.screens
+package com.mindera.alfie.screens
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.material3.Text

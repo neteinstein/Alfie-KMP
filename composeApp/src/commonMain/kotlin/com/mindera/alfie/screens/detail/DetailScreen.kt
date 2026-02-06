@@ -1,4 +1,4 @@
-package com.neteinstein.alfie.screens.detail
+package com.mindera.alfie.screens.detail
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.background
@@ -35,8 +35,8 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil3.compose.AsyncImage
-import com.neteinstein.alfie.data.MuseumObject
-import com.neteinstein.alfie.screens.EmptyScreenContent
+import com.mindera.alfie.data.MuseumObject
+import com.mindera.alfie.screens.EmptyScreenContent
 import kmp_app_template.composeapp.generated.resources.Res
 import kmp_app_template.composeapp.generated.resources.back
 import kmp_app_template.composeapp.generated.resources.label_artist

@@ -1,12 +1,12 @@
-package com.neteinstein.alfie.di
+package com.mindera.alfie.di
 
-import com.neteinstein.alfie.data.InMemoryMuseumStorage
-import com.neteinstein.alfie.data.KtorMuseumApi
-import com.neteinstein.alfie.data.MuseumApi
-import com.neteinstein.alfie.data.MuseumRepository
-import com.neteinstein.alfie.data.MuseumStorage
-import com.neteinstein.alfie.screens.detail.DetailViewModel
-import com.neteinstein.alfie.screens.list.ListViewModel
+import com.mindera.alfie.data.InMemoryMuseumStorage
+import com.mindera.alfie.data.KtorMuseumApi
+import com.mindera.alfie.data.MuseumApi
+import com.mindera.alfie.data.MuseumRepository
+import com.mindera.alfie.data.MuseumStorage
+import com.mindera.alfie.screens.detail.DetailViewModel
+import com.mindera.alfie.screens.list.ListViewModel
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.http.ContentType

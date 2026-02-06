@@ -1,4 +1,4 @@
-package com.neteinstein.alfie.data
+package com.mindera.alfie.data
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob

@@ -1,4 +1,4 @@
-package com.neteinstein.alfie.data
+package com.mindera.alfie.data
 
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body

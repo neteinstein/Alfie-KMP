@@ -1,4 +1,4 @@
-package com.neteinstein.alfie
+package com.mindera.alfie
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -11,8 +11,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
-import com.neteinstein.alfie.screens.detail.DetailScreen
-import com.neteinstein.alfie.screens.list.ListScreen
+import com.mindera.alfie.screens.detail.DetailScreen
+import com.mindera.alfie.screens.list.ListScreen
 import kotlinx.serialization.Serializable
 
 @Serializable

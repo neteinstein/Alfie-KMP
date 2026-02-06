@@ -62,11 +62,11 @@ kotlin {
 }
 
 android {
-    namespace = "com.neteinstein.alfie"
+    namespace = "com.mindera.alfie"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.neteinstein.alfie"
+        applicationId = "com.mindera.alfie"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

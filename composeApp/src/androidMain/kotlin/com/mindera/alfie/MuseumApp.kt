@@ -1,7 +1,7 @@
-package com.neteinstein.alfie
+package com.mindera.alfie
 
 import android.app.Application
-import com.neteinstein.alfie.di.initKoin
+import com.mindera.alfie.di.initKoin
 
 class MuseumApp : Application() {
     override fun onCreate() {
